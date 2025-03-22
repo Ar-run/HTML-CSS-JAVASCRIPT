@@ -1,0 +1,27 @@
+.header {
+    height: 55px;
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 150px;
+    /* We want a fixed left section */
+}
+
+.middle-section {
+    background-color: lightcoral;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    /*we want a stechable search bar*/
+}
+
+.right-section {
+    background-color: lightblue;
+    width: 200px;
+
+}
